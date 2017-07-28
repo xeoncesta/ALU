@@ -1,0 +1,2 @@
+vhdl work "alu.vhd"
+vhdl work "tb_exam.vhd"

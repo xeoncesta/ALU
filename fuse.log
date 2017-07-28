@@ -1,0 +1,27 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o D:/labexam/tb_exam_isim_beh.exe -prj D:/labexam/tb_exam_beh.prj work.tb_exam 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/labexam/alu.vhd" into library work
+WARNING:HDLCompiler:946 - "D:/labexam/alu.vhd" Line 92: Actual for formal port i0 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/labexam/alu.vhd" Line 93: Actual for formal port i0 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/labexam/alu.vhd" Line 94: Actual for formal port i0 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/labexam/alu.vhd" Line 95: Actual for formal port i0 is neither a static name nor a globally static expression
+Parsing VHDL file "D:/labexam/tb_exam.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 107800 KB
+Fuse CPU Usage: 436 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture structural of entity mux4x1 [mux4x1_default]
+Compiling architecture structural of entity fh [fh_default]
+Compiling architecture structural of entity alu [alu_default]
+Compiling architecture behavior of entity tb_exam
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable D:/labexam/tb_exam_isim_beh.exe
+Fuse Memory Usage: 117764 KB
+Fuse CPU Usage: 530 ms

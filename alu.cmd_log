@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/labexam/alu.xst" -ofn "D:/labexam/alu.syr" 
